@@ -37,6 +37,8 @@ elif month == 'Jun' and day >= 21:
     print('Summer')
 elif month == 'Sep' and day <= 21:
     print('Summer')
+elif month == 'Sep' and day > 21:
+    print('fall')
 elif month in ('April', 'May', 'Jun'):
     print('Spring')
 elif month in ('Jul', 'Aug', 'Sep'):

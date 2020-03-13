@@ -20,6 +20,6 @@ c = input('input length for side C: ')
 if a == b == c :
     print('The triangle is equilateral')
 elif a == b or b == c or c == a:
-    print('The triangle is scalene')
-else:
     print('The triangle is isosceles')
+else:
+    print('The triangle is scalene')
